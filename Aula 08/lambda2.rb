@@ -1,5 +1,5 @@
 first_lambda = -> (names){ names.each { |name |puts name } }
 
-names = ["jão", "maria", "pedro"]
+names = ["joão", "maria", "pedro"]
 
 first_lambda.call(names)
