@@ -1,24 +1,25 @@
-puts ("-------------------------")
-puts ("  Escola do Madruguinha  ")
-puts ("-------------------------")
+    puts "-------------------------"
+    puts "  Escola do Madruguinha  "
+    puts "-------------------------"
+    
+    print   "Digite a primeira nota: "
+    n1 = Float(gets)
+    
+    print "Digite a segunda nota:"
+    n2 = Float(gets)
+    puts "-------------------------"
+    
+    if media = (n1 + n2) / 2
+    puts ("MEDIA: " + media.to_s)
+    
+    elsif media = 7 
+    puts "O ALUNO ESTA APROVADO"
+    puts "-------------------------"
+    
+    else  media = 7  
+    puts "O ALUNO ESTA REPROVADO"
 
-p   ("Digite a primeira nota: ")
-x = gets.chomp.to_f
+    end
 
-p ("Digite a segunda nota:")
-y = gets.chomp.to_f
-puts ("-------------------------")
+    puts "-------------------------"
 
-    # Soma todos os números da lista
-    soma = numeros.reduce(x+y)
-
-    # Calcula a média dividindo a soma pelo número de elementos na lista
-    media = soma.to_f / numeros.length
-
-    return media
-end
-puts ("ALUNO APROVADO")
-
-puts ("ALUNO REPROVADO")
-
-puts ("-------------------------")
