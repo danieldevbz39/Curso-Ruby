@@ -11,15 +11,20 @@ puts "-------------------------"
 
 if media = (n1 + n2) / 2
   puts ("MEDIA: " + media.to_s)
+  print ('Digite o resultado da nota:')
 
-  MEDIA = gets.chomp.to_i
+end
+
+MEDIA = gets.chomp.to_i
   case MEDIA
   when 1..6
-  puts "O ALUNO ESTA REPROVADO"
-  puts "-------------------------"
+    puts "---------------------------------"
+    puts "O ALUNO ESTA REPROVADO"
+    puts "---------------------------------"
   when 7..9
-  puts "O ALUNO ESTA APROVADO"
-  puts "-------------------------"
+    puts "---------------------------------"
+    puts "O ALUNO ESTA APROVADO"
+    puts "---------------------------------"
   else
-  puts 'Não foi possível identificar'
+    puts 'Não foi possível identificar'
   end
