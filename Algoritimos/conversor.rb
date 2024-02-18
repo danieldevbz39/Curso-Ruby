@@ -1,3 +1,10 @@
-real = float(input('Quanto dinheiro você tem na carteira? R$'))
-dolar = real / 5.25
-print ('Com R${: .2f} você pode comprar US${: .2f}' .format(real, dolar))
+print " R$"
+    x = gets.chomp.to_f
+    
+    div = x.to_f / 5
+
+    puts " R$ #{x}0, $#{div}0 Dolares."
+    
+
+
+    #div = x.to_f / y.to_f
