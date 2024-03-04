@@ -9,4 +9,4 @@ class Computer
 end
 
 computer = computer.new
-puts computer.turn_on
+puts computer.turn_onw
